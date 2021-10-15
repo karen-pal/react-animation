@@ -11,7 +11,7 @@ const BasicText = () => (
 const App = () => (
     <Stage width={1500} height={1050} options={{ backgroundAlpha: 0 }}>
         <BasicText/>
-      <Container x={150} y={150}>
+      <Container x={300} y={300}>
         <AnimatedText />
       </Container>
     </Stage>
